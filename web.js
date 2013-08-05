@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 var fs = require('fs');
-var path = "indext.html";
+var path = "index.html";
 app.use(express.logger());
 
 var htmlRender = function(fname) {
